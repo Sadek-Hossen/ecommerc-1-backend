@@ -24,7 +24,7 @@ app.use(express.json())
 // CORS setup for local and live frontend
 const allowedOrigins = [
   "http://localhost:3000",                     // Local frontend
-  "https://e-commerc1-backend.netlify.app/" // Live frontend URL (replace later)
+  "https://e-commerc1-backend.netlify.app" // Live frontend URL (replace later)
 ]
 
 app.use(cors({
